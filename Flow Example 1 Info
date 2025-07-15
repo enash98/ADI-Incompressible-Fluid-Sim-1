@@ -1,0 +1,10 @@
+This gif shows the time evolution of an incompressible fluid in 2D, contained within a 2D box and subject to a uniform gravitational field.
+
+The quiver plot (distribution of arrows) shows the direction of the flow at each point on a 25x25 grid, with the arrow lengths roughly indicating the flow speed
+
+The heatmap (colourmap) shows the distribution of heat energy within the fluid, with violet/blue indicating a low heat density, and green/yellow indicating a high heat density
+
+The box is thermally insulated, so that the normal derivative of the heat density function Q(x,y) vanishes at the boundary
+There is a localised heat source in the bottom left corner which adds heat energy to the system at a constant rate
+
+The fluid is initially at rest with a uniform heat distribution
