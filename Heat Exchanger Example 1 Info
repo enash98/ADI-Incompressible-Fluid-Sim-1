@@ -1,0 +1,10 @@
+This gif shows a simulation of an incompressible fluid contained in a box in 2D, subject to uniform gravity, and convection due to temperature gradients:
+
+Roughly speaking, the simulation shows a rudimentary heat exchanger between two large heat reservoirs at different temperatures (on the left and right).
+
+The leftmost wall is maintained at a constant high temperature, and the right most wall is maintained at a constant lower temperature.
+The upper and lower walls are thermally insulated -- the normal derivative of the heat density function Q(x,y) vanishes along these walls
+
+The fluid is initially at rest, and the inital heat distribution is linear in the x (horizontal)-direction, and constant on each vertical line x=x0
+
+The fluid flow velocity is indicated by the quiver plot, while the heat distribution is indicated by the colourmap -- with violet/blue showing a low heat density, and green/yellow a high heat density
